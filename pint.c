@@ -1,4 +1,4 @@
-#include "mOnty.h"
+#include "monty.h"
 
 /**
  * f_pint - prints the top
@@ -11,11 +11,11 @@ void f_pint(stack_t **head, unsigned int counter)
 {
 	if (*head == NULL)
 	{
-		fprint(stderr, "L%u: can't pint, stack empty\n", counter);
+		fprintf(stderr, "L%u: can't pint, stack empty\n", counter);
 		fclose(bus.file);
-		free(buse.content);
+		free(bus.content);
 		free_stack(*head);
 		exit(EXIT_FAILURE);
 	}
 	printf("%d\n", (*head)->n);
-
+}

@@ -59,6 +59,11 @@ void f_pint(stack_t **head, unsigned int counter);
 void f_swap(stack_t **head, unsigned int counter);
 void f_pall(stack_t **head, unsigned int counter);
 void f_pop(stack_t **head, unsigned int counter);
+void free_stack(stack_t *head);
+void addnode(stack_t **head, int n);
+void f_queue(stack_t **head, unsigned int counter);
+void addqueue(stack_t **head, int n);
+int main(int argc, char *argv[]);
 
 
 #endif

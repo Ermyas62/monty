@@ -20,7 +20,7 @@ void f_swap(stack_t **head, unsigned int counter)
 	}
 	if (len < 2)
 	{
-		fprint(stderr, "L%d: can't swap, stack too shoort\n", counter);
+		fprintf(stderr, "L%d: can't swap, stack too shoort\n", counter);
 		fclose(bus.file);
 		free(bus.content);
 		free_stack(*head);
