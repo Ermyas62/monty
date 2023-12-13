@@ -64,7 +64,7 @@ void addnode(stack_t **head, int n);
 void f_queue(stack_t **head, unsigned int counter);
 void addqueue(stack_t **head, int n);
 int main(int argc, char *argv[]);
-int excute(char *content, stack_t **head, unsigned int counter, FILE *file);
+int execute(char *content, stack_t **head, unsigned int counter, FILE *file);
 ssize_t getstdin(char **lineptr, int file);
 ssize_t getline(char **content, long unsigned int *size, FILE *file);
 
