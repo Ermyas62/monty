@@ -53,10 +53,12 @@ typedef struct bus_s
 } bus_t;
 extern bus_t bus;
 
+void f_push(stack_t **head, unsigned int counter);
 void f_add(stack_t **head, unsigned int counter);
 void f_nop(stack_t **head, unsigned int counter);
 void f_pint(stack_t **head, unsigned int counter);
 void f_swap(stack_t **head, unsigned int counter);
+void f_sub(stack_t **head, unsigned int counter);
 void f_pall(stack_t **head, unsigned int counter);
 void f_pop(stack_t **head, unsigned int counter);
 void free_stack(stack_t *head);
@@ -67,6 +69,6 @@ int main(int argc, char *argv[]);
 int execute(char *content, stack_t **head, unsigned int counter, FILE *file);
 ssize_t getstdin(char **lineptr, int file);
 ssize_t getline(char **content, long unsigned int *size, FILE *file);
-
+void f_stack(stack_t **head, unsigned int counter
 
 #endif
