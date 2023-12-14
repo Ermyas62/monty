@@ -20,7 +20,7 @@ void _pchar(stack_t **head, unsigned int counter)
 	}
 	if (h->n > 127 || h->n < 0)
 	{
-		fprintf(stderr, "L%d: can't pchar, value of range\n", counter);
+		fprintf(stderr, "L%d: can't pchar, value out of range\n", counter);
 		fclose(bus.file);
 		free(bus.content);
 		free_stack(*head);
