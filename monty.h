@@ -61,6 +61,7 @@ void _nop(stack_t **head, unsigned int counter);
 void _pint(stack_t **head, unsigned int number);
 void _swap(stack_t **head, unsigned int counter);
 void _sub(stack_t **head, unsigned int counter);
+void _div(stack_t **head, unsigned int counter);
 void _pall(stack_t **head, unsigned int number);
 void _pop(stack_t **head, unsigned int counter);
 void free_stack(stack_t *head);
