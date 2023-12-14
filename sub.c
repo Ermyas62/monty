@@ -1,12 +1,12 @@
 #include "monty.h"
 /**
- * f_sub - substration
+ * _sub - substration
  *
  * @counter: kine number
  * Return: no return
  */
 
-void f_sub(stack_t **head, unsigned int counter)
+void _sub(stack_t **head, unsigned int counter)
 {
 	stack_t *aux;
 	int sus, nodes;
